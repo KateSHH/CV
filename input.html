@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Web development</title>
+  </head>
+
+  <body>
+<h3>Input attributes</h3>
+<form>
+  <label>What is your favorite color?</label>
+  <input type="color" />
+  <br />
+  <label>What is your name?</label>
+  <input type="text" name="name" id="name" required minlength="4" maxlength="8" size="10"/>
+  <br />
+  <label>How old are you?</label>
+  <input type="number" required>
+  <br />
+  <label>Country of residence</label>
+  <input type="text" name="coutry" id="country" size="10" required/>
+  <br />
+  <label>When is your birthday?</label>
+  <input type="date" name="bday" id="bday" value="2022/6/22" min="1920/1/1" max="2022/1/1">
+  <br />
+  <label for="email">Enter your email</label>
+  <input type="email" name="email" id="name" size="30" required>
+  <br />
+    <label>What is your experience in this field?</label>
+    <br />
+    <input type="radio" id="1-2years" name="years" value="1-2 years"/>
+    <label for="1-2years">1-2 years</label>
+    <br />
+    <input type="radio" id="3-5years" name="years" value="3-5 years"/>
+    <label for="3-5years">3-5 years</label>
+    <br />
+    <input type="radio" id="5-10years" name="years" value="5-10 years"/>
+    <label for="5-10years">5-10 years</label>
+    <br />
+    <label>Do you give your consent for personal data?</label>
+    <br />
+    <input type="checkbox" id="chooseYes" name="choose" value="yes"/>
+    <label for="chooseYes">Yes</label>
+    <input type="checkbox" id="chooseNo" name="choose" value="no"/>
+    <label for="chooseNo">No</label>
+    <br />
+    <input type="submit" />
+
+
+
+</form>
+  </body>
+</html>
